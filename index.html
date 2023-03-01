@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Comptaible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Song Are You Listening To?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Random Mitski Song!</h1>
+    <div class="options">
+      <div class="input">
+      <label for="albumselection">Specific Album:</label>
+      <select name="albumselection" class="albumselection" id="albumselection">
+        <option>All Albums</option>
+        <option>Lush</option>
+        <option>Retired from Sad, New Career in Business</option> 
+        <option>Bury Me at Makeout Creek</option> 
+        <option>Puberty 2</option> 
+        <option>Be a Cowboy</option> 
+        <option>Laurel Hell</option> 
+      </select>
+      </div>
+    <button id="randomize" class="randomize">Randomize</button>
+    <div>
+      <div id="container"></div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
